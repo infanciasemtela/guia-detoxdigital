@@ -1,0 +1,432 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia: Como fazer seu filho esquecer as telas definitivamente</title>
+    <!-- Adicionando as fontes Droid Sans e Droid Serif do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Sans&family=Droid+Serif&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Roboto, sans-serif;
+        }
+
+        body {
+            background-color: #9e9e9e;
+            color: #333;
+            line-height: 1.6;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 10 10'%3E%3Cline x1='0' y1='10' x2='10' y2='0' stroke='%23808080' stroke-width='2' /%3E%3C/svg%3E");
+        }
+
+    body {
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* IE 10+ */
+        user-select: none;         /* Standard */
+    }
+
+        section a {
+            word-wrap: break-word; /* Quebra a URL quando ultrapassa o limite da section */
+            overflow-wrap: break-word; /* Suporte adicional para navegadores */
+        }
+
+        header {
+            background-color: #f4b324;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-family: 'Droid Sans', sans-serif; /* Aplicando a fonte Droid Sans */
+            font-size: 25px;
+            line-height: 1.15;
+            color: #333;
+            text-align: center;
+        }
+
+        .logo-header {
+        width: 40px; /* Largura máxima de 35px */
+        display: block;
+        border-radius: 50%; /* Transforma a imagem em um círculo */
+        margin: -4 auto 12px auto; /* Centraliza a imagem e adiciona um espaçamento abaixo */
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 8px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            font-family: 'Droid Sans', sans-serif;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .titulo-principal {
+            font-family: 'Droid Sans', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #07a5c3;
+            text-align: left;
+            line-height: 1.15;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        .titulo-passo {
+            font-family: 'Droid Serif', serif; /* Aplicando a fonte Droid Serif */
+            font-size: 17px;
+            color: #000000;
+            text-align: left;
+            line-height: 1.35;
+            margin-top: 30px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 15px; /* Espaçamento após todos os parágrafos */
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 13px;
+            padding: 15px;
+            background-color: black;
+            color: #fff;
+        }
+
+        footer p {
+            margin-bottom: 15px; /* Espaçamento após os parágrafos */
+            line-height: 5px;  /* Adiciona o espaçamento entre as linhas */
+        }
+
+        /* Estilo para links não clicados */
+        a:link {
+            color: #065564;             /* Cor do link não clicado */
+            text-decoration: none;      /* Remove o sublinhado */
+            font-style: normal;         /* Estilo normal */
+        }
+
+        /* Estilo para links clicados */
+        a:visited {
+            color: #f14902;             /* Cor do link clicado */
+            text-decoration: none;      /* Remove o sublinhado */
+            font-style: normal;         /* Estilo normal */
+        }
+
+        /* Estilo para links ao passar o mouse */
+        a:hover, a:active {
+            text-decoration: none;      /* Garante que o link não tenha sublinhado ao passar o mouse */
+        }
+        
+        /* Estilo para links não clicados */
+        nav ul li a:link {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: none;
+            font-style: normal;
+        }
+
+        /* Estilo para links clicados */
+        nav ul li a:visited {
+            color: #fff;
+            font-size: 13px;
+            text-decoration: none;
+            font-style: normal;
+        }
+
+    .font-size-controls {
+        position: fixed;
+        top: 198px;
+        right: 5px;
+        background-color: #333;
+        padding: 2px;
+        border-radius: 25px;
+        z-index: 999;
+    }
+
+    .font-size-controls button {
+        display: block;
+        font-size: 12px;
+        color: black;
+        margin: 5px;
+        background-color: #fff;
+        border: none;
+        border-radius: 15px;
+        padding: 5px 5px;
+        cursor: pointer;
+    }
+
+        .font-size-controls button:hover {
+            background-color: #f1f1f1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header id="topo">
+        
+        <img src="https://lh3.googleusercontent.com/d/1Hd4qkvYv8aNR4CZ2I_mv7JjKibR9gJ0B" alt="Logo" class="logo-header">
+
+        <h1>Como fazer seu filho esquecer as telas definitivamente</h1>
+    </header>
+
+
+
+    <nav>
+        <ul>
+            <li><a href="#passo1">1º PASSO</a></li>
+            <li><a href="#passo2">2º PASSO</a></li>
+            <li><a href="#passo3">3º PASSO</a></li>
+            <li><a href="#passo4">4º PASSO</a></li>
+            <li><a href="#passo5">5º PASSO</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <p>Segue o método que utilizei para resgatar o meu filho de 4 anos das telas. Este método possui <strong>5 passos</strong>, os quais devem ser colocados em prática conforme descrito neste material, a fim de que você consiga, de uma vez por todas, libertar o seu filho, ou sua filha, do domínio das telas digitais!</p>
+
+    <h3 id="passo1" class="titulo-passo">
+        1º PASSO: Providencie atividades para substituir as telas<a href="#topo" style="text-decoration: none; color: inherit; margin-left: 8px;">&#8634;</a> 
+    </h3>
+    <p>Uma das chaves para retirar a criança da frente das telas é oferecer alternativas que sejam atraentes a ela. Atividades como brincadeiras ao ar livre, brinquedos, livros, jogos de tabuleiro, instrumentos musicais, atividades físicas e artísticas são exemplos de atividades que ajudarão a preencher o tempo que o seu filho costuma dedicar às telas.</p>
+    <p>O importante é que essas atividades sejam uma novidade para o seu filho, do contrário, elas não prenderão a sua atenção. Vale ressaltar que existem diversas opções de atividades, além das citadas acima como, por exemplo, a caminhada. A caminhada é extremamente benéfica para as crianças. Ela proporciona relaxamento corporal e promove a conexão com o mundo real, além de diversos outros benefícios.</p>
+    <p>Uma outra opção é avaliar a possibilidade de presentear o seu filho com um animal de estimação. Em geral, as crianças adoram animais. Entretanto, se já existe um pet na sua casa, talvez essa não seja a opção mais acertada.</p>
+    <p>Outra dica super valiosa para ocupar o tempo do seu filho é envolvê-lo nas tarefas domésticas. Incluir os pequenos em atividades simples da casa traz benefícios incríveis para o desenvolvimento deles como:</p>
+    <ul>
+        <li>Desenvolve habilidades motoras;</li>
+        <li>Ensina a importância da colaboração;</li>
+        <li>Aumenta a autoestima;</li>
+        <li>Cria o hábito da organização;</li>
+        <li>Desperta o senso de responsabilidade;</li>
+        <li>Estimula a autonomia.</li>
+    </ul>
+    <p>Além desses benefícios, de acordo com o maior estudo sobre felicidade humana realizado pela Universidade Harvard, crianças que se envolvem em atividades domésticas desde cedo têm maiores chances de serem adultos bem-sucedidos e felizes.</p>
+    <p>Considerando que o seu filho não terá mais acesso às telas, é fundamental que você crie uma rotina para ele. Diversos estudos comprovam a associação positiva entre as rotinas e o aprimoramento das habilidades sociais e emocionais das crianças. As crianças envolvidas em mais rotinas familiares apresentam compreensão emocional avançada, empatia e mantêm relacionamentos enriquecidos com colegas e adultos. Além disso, rotinas consistentes na infância estão associadas a uma melhor regulação emocional e comportamental. Portanto, crie uma rotina consistente para o seu filho com horários predefinidos para: refeições, estudo, brincadeiras, banho, tarefas domésticas, leitura e sono. Isso ajudará bastante o seu filho durante o processo de desintoxicação das telas.</p>
+    <p>No caso do nosso filho, nós utilizamos, basicamente, brinquedos e livros, além de incluí-lo nas atividades domésticas. Como o aniversário do nosso filho estava próximo do momento em que decidimos retirar as telas, isso facilitou bastante. Pedimos à avó materna um Lego de presente para ele, e livros para a minha mãe. Da nossa parte, demos a ele um carrinho de controle remoto, um brinquedo que ele estava nos pedindo há um certo tempo. Ele ganhou outros brinquedos de presente, além desses.</p>
+    <p>Durante o dia, nosso filho gosta de brincar com o Lego, com os carrinhos e com a massinha de modelar que demos a ele. À noite, os livros entram em campo. Ele adora. Portanto, não precisa comprar um monte de brinquedos, três já são o suficiente. Além dos brinquedos, recomendamos os livros, pois eles estimulam a criatividade, o raciocínio, a imaginação, o desenvolvimento cognitivo e da linguagem das crianças, além de diversos outros benefícios.</p>
+    <p>Os brinquedos e os livros novos nos ajudaram muito. Eles foram cruciais para que nós conseguíssemos alcançar o nosso objetivo de maneira mais tranquila, sem maiores contratempos. Você precisa avaliar e recorrer ao que faz mais sentido para o seu filho, de acordo com a sua realidade. Para crianças muito habituadas a assistir desenhos animados, uma dica é adquirir livros, revistinhas para colorir, quebra-cabeças e outros itens dos personagens favoritos delas.</p>
+    <p><strong>Por fim, é importante destacar que os brinquedos e os livros devem ser entregues ao seu filho um dia antes do segundo passo: a conversa.</strong></p>
+
+
+<h3 id="passo2" class="titulo-passo">
+    2º PASSO: Converse com o seu filho<a href="#topo" style="text-decoration: none; color: inherit; margin-left: 8px;">&#8634;</a> 
+</h3>
+    <p>É crucial que a criança seja informada sobre as mudanças que ocorrerão em sua rotina. Essa comunicação ajuda a aliviar a resistência que ela poderá apresentar durante o processo de retirada das telas. Seu filho precisa entender os motivos pelos quais ele não poderá mais ter acesso às telas. É muito importante que essa conversa não fique a cargo apenas do pai ou da mãe, mas de ambos, a fim de que a criança assimile a importância das mudanças que ocorrerão em sua vida.</p>
+    <p>Comunique essa situação à criança, em termos que ela possa entender. Diga para o seu filho, ou sua filha, que vocês descobriram que as telas fazem muito mal para a saúde dele(a) e, por esse motivo, vocês decidiram retirá-las da sua rotina. Para facilitar a compreensão, digam ao seu filho que essas mudanças são para o bem dele e que vocês estão fazendo isso porque vocês o amam. Reforcem para ele que agora ele tem livros e brinquedos novos com os quais ele poderá brincar sempre que desejar.</p>
+    <p>Essa comunicação deve ocorrer ao final do dia, pouco antes da criança ir dormir. Se ela pedir para ver um último desenho ou um último desenho, diga que isso não será possível, reforçando o teor da conversa que vocês acabaram de ter com ela. Nesse momento, a criança poderá esboçar tristeza, alegria e, poderá até mesmo chorar. Independentemente da reação dela, o importante é, ao final da conversa, abraçá-la e cobri-la de beijos para que a criança se sinta acolhida e segura diante das mudanças que ocorrerão em sua rotina.</p>
+
+
+    <h3 id="passo3" class="titulo-passo">
+        3º PASSO: Retire as telas<a href="#topo" style="text-decoration: none; color: inherit; margin-left: 8px;">&#8634;</a> 
+    </h3>
+    <p>Após a conversa, existem dois caminhos a serem seguidos: Um para a criança que tem contato frequente com TV, tablet, celular e demais dispositivos digitais, e outro para a criança que assiste somente à TV.</p>
+    
+    <p><strong>Para crianças que têm acesso a diversos dispositivos digitais, além da TV:</strong></p>
+    <p>Neste caso, a retirada das telas deve ocorrer de forma gradual. Isso ajudará a criança a se adaptar melhor ao processo de retirada das telas. Comece dizendo ao seu filho que ele não poderá mais utilizar dispositivos móveis como smartphone, tablet e videogames portáteis. Diga que somente a TV será liberada, mas por apenas um pouco mais de tempo. Reforce que a TV também será retirada, pois ela também é prejudicial. Após essa conversa, siga os passos abaixo:</p>
+    <ul>
+        <li>Retire os dispositivos móveis, permitindo que a criança assista apenas a TV;</li>
+        <li>Limite o tempo de TV a até uma hora por dia;</li>
+        <li>Utilize um despertador no seu celular para evitar que a criança ultrapasse o tempo estipulado;</li>
+        <li>Faça uma dessensibilização da TV quando o seu filho for assistir. Diminua o brilho, as cores e o volume da televisão para que ela fique menos estimulante e, portanto, menos interessante para a criança;</li>
+        <li>Opte, sempre que possível, por desenhos com menos estímulos visuais como <em>Puffing Rock</em> (Netflix), <em>Se der um biscoito a um rato</em> (Prime Video), <em>Um dia de Neve</em> (Prime Video), <em>Bluey</em> (Disney + e YouTube), <em>Show da Luna</em> (Prime Video e Max), <em>O Pequeno Urso</em> (YouTube), <em>Caillou</em> (YouTube), <em>Charlie e Lola</em> (Prime Video), <em>Daniel o Tigre</em> (Netflix);</li>
+        <li>Evite o acesso à TV logo após a criança acordar e duas horas antes dela ir dormir;</li>
+        <li>Ao terminar o tempo combinado, peça ao seu filho para desligar a televisão. Isso será pedagógico para ele;</li>
+        <li>Após uma semana nesse ritmo, converse novamente com o seu filho e diga que a partir de agora a TV também será retirada de sua rotina.</li>
+    </ul>
+    
+    <p><strong>Para crianças que assistem apenas à TV e não têm acesso à dispositivos móveis de maneira habitual:</strong></p>
+    <ul>
+        <li>Neste caso, a TV deve ser retirada da rotina dela de uma vez;</li>
+        <li>Considere retirar a TV da sala. Guarde-a em um local onde o seu filho não a veja;</li>
+    </ul>
+    
+    <p>A presença da televisão na sala pode se transformar numa situação de gatilho mental para o seu filho, ou seja, ele pode sentir vontade de assistir ao seu desenho predileto ao ver o aparelho televisor na sala. Considerando que ele não poderá mais assistir desenhos animados, o contato visual da criança com o televisor tende a gerar ansiedade nela.</p>
+    
+    <p>Isso ocorreu em nossa casa. Antes de afastar a TV do nosso filho, era comum ele ficar ansioso com a simples presença da TV na sala. Para aliviar essa ansiedade, ele recorria aos movimentos repetitivos, conforme mencionei anteriormente. Como só liberávamos uma hora de TV por dia, ele ficava ansioso para chegar o dia seguinte para poder assistir novamente. As estereotipias podem ocorrer como uma forma de autorregulação do corpo quando uma pessoa está ansiosa por causa de uma necessidade que não pode ser atendida de imediato.</p>
+    
+    <p>Obviamente que esta não é uma regra absoluta. Você deve avaliar se retirar a televisão da sala faz sentido para que o seu filho consiga se desvencilhar da TV mais facilmente.</p>
+
+
+    <h3 id="passo4" class="titulo-passo">
+        4º PASSO: Crie um ambiente livre de telass<a href="#topo" style="text-decoration: none; color: inherit; margin-left: 8px;">&#8634;</a> 
+    </h3>
+    <p>Além da questão da TV, é essencial que a sua casa se torne um ambiente livre de telas, para que o seu filho consiga se desvincular delas de forma mais tranquila. Nesse sentido, elencamos abaixo algumas dicas para que o seu filho não seja exposto às telas durante o processo de desintoxicação digital:</p>
+    <ul>
+        <li>Não vá a lugares onde a criança costuma assistir TV durante o período de desintoxicação. Isso significa que as visitas na casa da vovó, parentes e amigos próximos devem ser reavaliadas até que o seu filho esteja totalmente desintoxicado das telas;</li>
+        <li>Se o seu filho tem o costume de usar tela durante viagens, evite viajar nesse período, pois ele ainda não estará totalmente preparado para enfrentar uma viagem sem telas;</li>
+        <li>Não leve o seu filho ao cinema durante o processo de retirada das telas;</li>
+        <li>As sessões de cinema em família também devem ficar suspensas neste período;</li>
+        <li>Se a escola ou a creche do seu filho utiliza telas, converse com a coordenadora pedagógica sobre o processo que ele está passando e peça para que sejam providenciadas atividades alternativas às telas. Se houver resistência por parte da coordenação, considere mudar o seu filho para uma instituição em que as telas não sejam usadas com as crianças.</li>
+        <li>Não permita que amigos e familiares emprestem seus smartphones para o seu filho quando te visitarem. Explique a eles a situação;</li>
+        <li>Estimule famílias do seu convívio, que possuam filhos pequenos, a fazerem o mesmo, ou seja, a retirarem as telas dos seus filhos também. Se as crianças mais próximas do seu filho deixarem de utilizar telas, isso ajudará bastante. Caso não seja possível, não permita que o seu filho brinque com os amiguinhos quando a brincadeira envolver telas;</li>
+        <li><strong>E o mais importante:</strong> Evite, ao máximo, utilizar o celular próximo à criança. Isso ajudará o seu filho a vencer o período de abstinência que ele vai enfrentar. Se o seu filho perceber que vocês utilizam o celular perto dele, ele se sentirá atraído pelo aparelho, dificultando o processo de desintoxicação das telas. Caso seja realmente necessário utilizar o celular, tente fazer isso quando ele não estiver por perto. Se não for possível, diga ao seu filho porque terá que utilizar o celular. Assim que terminar de usar, guarde-o imediatamente.</li>
+    </ul>
+    <p>Em relação a este último ponto, cabe ressaltar que as crianças tendem a aprender de forma mais eficiente quando observam um exemplo prático, em vez de apenas ouvir instruções verbais. Um estudo publicado pela revista <em>Humanities and Social Sciences Communications</em> mostrou que crianças, ao verem exemplos concretos, desenvolvem uma compreensão mais prática e completa do que é necessário para o sucesso da tarefa.</p>
+
+
+
+    <h3 id="passo5" class="titulo-passo">
+        5º PASSO: Envolvimento dos pais, irmãos e cuidadores<a href="#topo" style="text-decoration: none; color: inherit; margin-left: 8px;">&#8634;</a> 
+    </h3>
+    <p>É muito importante que toda a família se envolva no processo de desintoxicação digital da criança. Os pais precisam ser mais atenciosos, pacientes e compreensivos com o filho durante essa jornada. O seu filho vai precisar muito contar com toda a família durante o processo de desintoxicação digital.</p>
+    <p>O especialista Michel Desmurget enfatiza a importância de os pais participarem ativamente na substituição das telas. Isso significa se envolver diretamente nas atividades alternativas. Ler um livro juntos, fazer uma caminhada ou brincar com a criança em vez de deixá-la sozinha no quarto são exemplos de como os pais podem se envolver nesse processo.</p>
+    <p>Outra questão importante são os casos em que a criança fica sob a responsabilidade de uma cuidadora. Se esse for o seu caso, você deve informá-la sobre as mudanças na rotina do seu filho para que ela possa cooperar com você neste processo. Portanto, deixe claro que ela não deve permitir, em hipótese alguma, que o seu filho tenha acesso às telas. Caso contrário, ela poderá comprometer todo o esforço. Além disso, peça para ela não utilizar smartphone ou outra tela na frente do seu filho.</p>
+    <p>Caso você tenha filho(s) mais velho(s), a orientação é a mesma. Diga que conta com a cooperação e compreensão dele(s) para que o irmão, ou a irmã, consiga se livrar das telas. Caso ele tenha o costume de assistir TV, peça para ele assistir enquanto o irmão mais novo estiver dormindo, ou na escola. Deixe claro que a colaboração de todos da casa é essencial nesse momento.</p>
+    <p>Este método foi desenvolvido para que a retirada das telas ocorra da maneira mais tranquila possível. Com o nosso filho foi super tranquilo. Entretanto, você poderá enfrentar dificuldades para retirar as telas do seu filho no início, caso ele esteja muito acostumado a elas. Neste caso, podem ocorrer crises de abstinência (crises de choro, irritabilidade, desânimo etc), indicando que o seu filho desenvolveu dependência das telas digitais.</p>
+    <p>Caso isso ocorra, tenha paciência e consistência. No início pode ser difícil, mas com o tempo, à medida que a criança se engaja em outras atividades e experimenta os benefícios de uma vida mais ativa e interativa, o interesse pelas telas diminuirá naturalmente.</p>
+
+    </section>
+
+    <section>
+    <h2 class="titulo-principal">Considerações finais</h2>
+    <p>Após seguir as cinco etapas do nosso método, o seu filho terá se livrado completamente das telas. No nosso caso, o processo de desintoxicação das telas durou cerca de um mês. Foi a partir desse momento que nós tivemos a percepção de que o nosso filho estava livre das telas.</p>
+    <p>Entretanto, não há um prazo específico para que uma criança esteja completamente "desintoxicada" das telas após a implementação das etapas apresentadas neste guia. A razão para isso é que o tempo necessário para uma criança se ajustar a uma nova rotina sem telas pode variar amplamente dependendo de fatores como a idade da criança, o quanto ela estava acostumada às telas, a consistência com que os pais aplicam as novas regras, e a receptividade da criança às novas atividades. Vale lembrar que cada criança é única.</p>
+    <p>Você deve estar se perguntando: Se eu tirar o meu filho das telas, vou ter que entretê-lo o tempo todo? Conforme mencionamos, os pais devem estar mais envolvidos com a criança durante o processo de retirada das telas. Entretanto, com o passar do tempo, à medida que a criança for se habituando a viver sem telas, essa necessidade vai diminuindo.</p>
+    <p>Ao final do processo, quando o seu filho estiver totalmente desintoxicado das telas, você notará que ele conseguirá se entreter sozinho com os próprios brinquedos e com as brincadeiras que ele próprio irá criar, assim como as crianças de antigamente.</p>
+    <p>Isso aconteceu com o nosso filho. Após a retirada das telas, ele passou a brincar sozinho e a desenvolver suas próprias brincadeiras de forma natural. Isso permite que a minha esposa consiga cuidar da casa sem ter que ficar entretendo o nosso filho o tempo todo.</p>
+    <p>Além disso, cabe destacar que a criança precisa ficar ociosa em determinados momentos do dia, pois o ócio é fundamental para o desenvolvimento infantil. Ele estimula habilidades essenciais como a imaginação, a criatividade, a resiliência e a autonomia das crianças.</p>
+    <p>Uma pesquisa recente sugere que crianças que enfrentam o ócio de forma construtiva tendem a desenvolver melhores estratégias de resolução de problemas e controle emocional. Além disso, a pesquisa revelou que pais que oferecem suporte emocional e oportunidades para que os filhos explorem suas próprias ideias e interesses, sem preencher cada momento livre com atividades estruturadas, ajudam a fomentar o crescimento emocional e cognitivo dos filhos, ajudando-os a se tornarem mais independentes e criativos.</p>
+    <p>Portanto, fique tranquilo(a)! A ideia de que as crianças criadas sem telas precisam ser entretidas pelos pais o tempo todo não passa de uma falácia!</p>
+    <p>Esteja preparado(a) para ouvir muitas “opiniões” quando você mencionar que decidiu retirar as telas do seu filho. Coisas do tipo: “Vocês estão sendo muito radicais” ou “isso não tem nada a ver, afinal você foi criado(a) com telas” ou ainda “você vai privá-los da tecnologia” entre outras. A recomendação é: Mantenha-se firme na sua decisão!</p>
+    <p>Se você decidiu afastar o seu filho das telas, é porque você entendeu o quanto elas são prejudiciais para o seu filho. Essas pessoas não farão nada por você quando o seu filho tiver uma crise de choro porque você o proibiu de pegar o celular, ou quando ele não conseguir ter uma noite tranquila de sono por causa das telas ou ainda, quando o seu filho desenvolver um quadro de astigmatismo por causa do excesso de celular. Portanto, não dê ouvidos às críticas.</p>
+    <p>As pessoas costumam minimizar os malefícios das telas na infância porque não possuem conhecimento sobre o assunto. No final das contas, o importante é que o seu filho viva uma infância de verdade, e não seja refém das telas como a grande maioria das crianças de hoje em dia.</p>
+    <p>Uma pergunta que você deve estar se fazendo é: Depois que o meu filho tiver se acostumado a viver sem telas, eu posso permitir que ele tenha acesso a elas novamente no futuro, de forma segura? Bom, nesse caso, nós indicamos o seguinte protocolo:</p>
+    <ul>
+        <li><strong>0 a 6 anos:</strong> Zero exposição às telas. É aceitável assistir a um filme em família ocasionalmente, ir ao cinema de vez em quando ou ainda utilizar o celular para realizar videochamadas com familiares e amigos. Justificativa: Durante os seis primeiros anos de vida o foco deve estar em atividades interativas como leitura e brincadeiras ao ar livre, essenciais para o desenvolvimento cognitivo, emocional e social da criança.</li>
+        <li><strong>7 a 13 anos:</strong> Até 2 horas de tela por dia. Nesta faixa etária, é possível assistir TV e jogar videogame (exceto videogames portáteis, que devem ser evitados por serem mais viciantes) até um limite de duas horas por dia. Não é recomendado o uso de smartphones, tablets e redes sociais nesta fase. Se for necessário dar um celular, opte por dumbphones (celulares básicos, que não possuem internet, aplicativos e redes sociais).</li>
+        <li><strong>14 a 15 anos:</strong> Até 2 horas de tela por dia e zero redes sociais. Limite a 2 horas diárias o tempo de tela. Avalie se há necessidade de dar um smartphone. Se for realmente necessário, dê o dispositivo, mas não permita redes sociais. Justificativa: A introdução ao uso de smartphones deve ser feita de forma gradual e sem acesso às redes sociais até os 15 anos. Isso porque nesta fase o cérebro ainda está em desenvolvimento, especialmente nas áreas relacionadas ao controle emocional e ao pensamento crítico.</li>
+        <li><strong>A partir dos 16 anos:</strong> Uso moderado de celulares e redes sociais. É importante manter um diálogo aberto sobre o impacto do tempo excessivo de tela e de redes sociais na saúde dos jovens, a fim de estimular o uso responsável e equilibrado.</li>
+    </ul>
+    <p>Essas orientações têm como objetivo garantir que o uso de telas não comprometa o desenvolvimento saudável do seu filho, promovendo um equilíbrio entre tecnologia e atividades offline, fundamentais para o desenvolvimento humano.</p>
+    <p>Elas foram retiradas dos livros: <em>A fábrica de cretinos digitais: Os perigos das telas para nossas crianças</em> de Michel Desmurget, e <em>A geração ansiosa: Como a infância hiperconectada está causando uma epidemia de transtornos mentais</em> de Jonathan Haidt. Ambos os livros foram escritos por grandes autoridades no assunto e são considerados referências em todo o mundo.</p>
+    <p>Agradecemos imensamente por ter adquirido o nosso material. Esperamos, de verdade, que ele lhe ajude a proporcionar mais saúde e bem-estar ao seu filho. Que Deus abençoe você e sua família! Grande abraço da equipe Infância Sem Tela!</p>
+
+    </section>
+
+    <section>
+    <h2 class="titulo-principal">Referências bibliográficas</h2>
+    <ul>
+        <li>ANDERSON, Alana J.; PERONE, Sammy. The kids are bored: Trait boredom in early childhood and links to self-regulation, coping strategies, and parent–child interactions. Journal of Experimental Child Psychology, v. 243, p. 105919, 2024. Disponível em: <a href="https://doi.org/10.1016/j.jecp.2024.105919" target="_blank">https://doi.org/10.1016/j.jecp.2024.105919</a>. Acesso em: 15/9/2024.</li>
+        <li>DESMURGET, Michel. A fábrica de cretinos digitais: os perigos das telas para nossas crianças. Rio de Janeiro: Editora Record, 2021.</li>
+        <li>DESMURGET, Michel. Faça-os ler!: Para não criar cretinos digitais. Rio de Janeiro: Editora Record, 2023.</li>
+        <li>HAIDT, Jonathan. A geração ansiosa: Como a infância hiperconectada está causando uma epidemia de transtornos mentais / tradução Lígia Azevedo. São Paulo: Companhia das Letras, 2024.</li>
+        <li>PAPA, A.; CRISTEA, M.; McGUIGAN, N. et al. Effects of verbal instruction vs. modelling on imitation and overimitation. Humanities and Social Sciences Communications, v. 8, n. 239, 2021. Disponível em: <a href="https://doi.org/10.1057/s41599-021-00925-4" target="_blank">https://doi.org/10.1057/s41599-021-00925-4</a>. Acesso em: 12/9/2024.</li>
+        <li>SELAM, Saliha B.; DILWORTH-BART, Janean E. Routines and child development: a systematic review. Journal of Family Theory & Review, v. 16, n. 2, p. 272-328, 2024. DOI: 10.1111/jftr.12549. Disponível em: <a href="https://onlinelibrary.wiley.com/doi/10.1111/jftr.12549" target="_blank">https://onlinelibrary.wiley.com/doi/10.1111/jftr.12549</a>. Acesso em: 10/9/2024.</li>
+        <li>SOCIEDADE BRASILEIRA DE PEDIATRIA. Manual de orientação. Grupo de Trabalho Saúde na Era Digital, 2019-2021. Rio de Janeiro: SBP, 2019. Disponível em: <a href="https://www.sbp.com.br/fileadmin/user_upload/manual_orientacao_sbp_cen1.pdf" target="_blank">https://www.sbp.com.br/fileadmin/user_upload/manual_orientacao_sbp_cen1.pdf</a>. Acesso em: 1º/9/2024.</li>
+        <li>WALDINGER, Robert; SCHULZ, Marc. The good life: lessons from the world's longest scientific study of happiness. 1. ed. New York: Simon & Schuster, 2023.</li>
+        <li>WU, Dandan; DONG, Xinyi; LIU, Danqing; LI, Hui. How early digital experience shapes young brains during 0-12 years: a scoping review. Early Education and Development, v. 35, n. 7, p. 1395-1431, 2024. DOI: 10.1080/10409289.2023.2278117. Disponível em: <a href="https://doi.org/10.1080/10409289.2023.2278117" target="_blank">https://doi.org/10.1080/10409289.2023.2278117</a>. Acesso em 18/9/2024.</li>
+    </ul>
+    </section>
+    </section>
+
+    <div class="font-size-controls">
+        <button onclick="increaseFontSize()">A+</button>
+        <button onclick="decreaseFontSize()">A–</button>
+    </div>
+
+<script>
+    // Função para aumentar o tamanho da fonte dos parágrafos, listas e títulos principais
+    function increaseFontSize() {
+        var paragraphs = document.querySelectorAll("p:not(footer p), li");
+        paragraphs.forEach(function(p) {
+            var currentSize = parseFloat(window.getComputedStyle(p).fontSize);
+            if (currentSize < 22) { // Limite de 22px
+                p.style.fontSize = (currentSize + 2) + "px";
+            }
+        });
+
+        var titles = document.querySelectorAll(".titulo-passo");
+        titles.forEach(function(title) {
+            var currentSize = parseFloat(window.getComputedStyle(title).fontSize);
+            if (currentSize < 25) { // Limite de 25px
+                title.style.fontSize = (currentSize + 2) + "px";
+            }
+        });
+    }
+
+    // Função para diminuir o tamanho da fonte dos parágrafos, listas e títulos principais
+    function decreaseFontSize() {
+        var paragraphs = document.querySelectorAll("p:not(footer p), li");
+        paragraphs.forEach(function(p) {
+            var currentSize = parseFloat(window.getComputedStyle(p).fontSize);
+            if (currentSize > 12) { // Limite mínimo de 12px
+                p.style.fontSize = (currentSize - 2) + "px";
+            }
+        });
+
+        var titles = document.querySelectorAll(".titulo-passo");
+        titles.forEach(function(title) {
+            var currentSize = parseFloat(window.getComputedStyle(title).fontSize);
+            if (currentSize > 18) { // Limite mínimo de 18px
+                title.style.fontSize = (currentSize - 2) + "px";
+            }
+        });
+    }
+
+    // Desabilita o clique com o botão direito do mouse
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    // Previne a seleção de texto
+    document.addEventListener('selectstart', function(e) {
+        e.preventDefault();
+    });
+
+    // Previne impressão da página
+    window.onbeforeprint = function() {
+        document.body.innerHTML = "<h1>Impressão não permitida!</h1>";
+    };
+    window.onafterprint = function() {
+        location.reload();
+    };
+
+    // Bloqueia atalhos de teclado para cópia, impressão e inspeção
+    document.addEventListener('keydown', function(e) {
+        // Ctrl+C, Ctrl+P, Ctrl+S, Ctrl+U, F12, Ctrl+Shift+I
+        if ((e.ctrlKey && (e.key === 'c' || e.key === 'p' || e.key === 's' || e.key === 'u')) ||
+            e.key === 'F12' || 
+            (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+            e.preventDefault();
+        }
+    });
+
+</script>
+
+
+    <footer>
+        <p>Copyright© 2024 por Alexandre do Carmo Alves da Silva</p>
+        <p>Todos os direitos reservados.</p>
+        <p> Infância sem Tela <a href="https://www.instagram.com/infanciasemtelaoficial">@infanciasemtelaoficial</a></p>
+    </footer>
+</body>
+</html>
+
